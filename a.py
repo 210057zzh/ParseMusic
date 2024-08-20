@@ -4,6 +4,8 @@ import sqlite3
 from alive_progress import alive_bar
 import errno
 
+playlist_name = "dian"
+
 
 def prepare_sqllite():
     log = open("log.txt", "w", encoding="utf-8")
@@ -50,19 +52,29 @@ def prepare_sqllite():
     con.close()
 
 
-def read_playlist():
+def prepare_playlist():
     con = sqlite3.connect("songs.db")
     cur = con.cursor()
-    with open("gudian.txt", "r", encoding="utf-8") as playlist:
+    log = open("log.txt", "w", encoding="utf-8")
+    with open(f"{playlist_name}.txt", "r", encoding="utf-8") as playlist:
         songs = [line.rstrip() for line in playlist]
+        result = []
         for song in songs:
             title = song.rsplit("-", 1)[0].strip()
-            res = cur.execute(
-                "select path from songs where title like ?",
-                ("%" + title + "%",),
-            ).fetchall()
-            pass
-    pass
+            result.append(
+                cur.execute(
+                    "select path from songs where title like ?",
+                    ("%" + title + "%",),
+                ).fetchall()
+            )
+            if len(result[-1]) == 0:
+                result.pop()
+                log.write(f"{title} not found\n")
+        playlist_file = open(f"{playlist_name}.m3u8", "w", encoding="utf-8")
+        playlist_file.write("#EXTM3U\n")
+        for song in result:
+            playlist_file.write("#EXT-X-RATING:0\n")
+            playlist_file.write(song[0][0] + "\n")
     con.commit()
     cur.close()
     con.close()
@@ -70,4 +82,4 @@ def read_playlist():
 
 # prepare_sqllite()
 
-read_playlist()
+prepare_playlist()

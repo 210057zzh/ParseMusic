@@ -1,11 +1,114 @@
-An exception occurred while processing yinyue\aLIEz - 澤野弘之 (さわの ひろゆき).flac : 'yinyue\\aLIEz - 澤野弘之 (さわの ひろゆき).flac' is not a valid FLAC file
-An exception occurred while processing yinyue\Dearest (最亲爱的) - 浜崎あゆみ (滨崎步).flac : 'yinyue\\Dearest (最亲爱的) - 浜崎あゆみ (滨崎步).flac' is not a valid FLAC file
-An exception occurred while processing yinyue\Fiction - BEAST (비스트).flac : 'yinyue\\Fiction - BEAST (비스트).flac' is not a valid FLAC file
-An exception occurred while processing yinyue\SENTIMENTAL (센치해) - WINNER (위너).flac : 'yinyue\\SENTIMENTAL (센치해) - WINNER (위너).flac' is not a valid FLAC file
-An exception occurred while processing yinyue\ワンダフルデイズ (美好时光) - ONE☆DRAFT (ワン・ドラフト).flac : 'yinyue\\ワンダフルデイズ (美好时光) - ONE☆DRAFT (ワン・ドラフト).flac' is not a valid FLAC file
-An exception occurred while processing yinyue\地球ぎ (地球仪) - 松澤由美.flac : 'yinyue\\地球ぎ (地球仪) - 松澤由美.flac' is not a valid FLAC file
-An exception occurred while processing yinyue\少女の頃に戻ったみたいに (仿佛回到少女时代) - ZARD (ザード).flac : 'yinyue\\少女の頃に戻ったみたいに (仿佛回到少女时代) - ZARD (ザード).flac' is not a valid FLAC file
-An exception occurred while processing yinyue\愛をとりもどせ!! (把爱夺回来!!) - Crystal King.flac : 'yinyue\\愛をとりもどせ!! (把爱夺回来!!) - Crystal King.flac' is not a valid FLAC file
-An exception occurred while processing yinyue\桃源郷エイリアン (桃源乡的外星人) - serial TV drama.flac : 'yinyue\\桃源郷エイリアン (桃源乡的外星人) - serial TV drama.flac' is not a valid FLAC file
-An exception occurred while processing yinyue\baisexiangbuquan\07. White Album — 由綺 III.flac : 'yinyue\\baisexiangbuquan\\07. White Album — 由綺 III.flac' is not a valid FLAC file
-An exception occurred while processing yinyue\R-任Xian齐 FLAC+MP3\2016-《朋友的酒》\任贤齐-朋友的酒.flac : 'yinyue\\R-任Xian齐 FLAC+MP3\\2016-《朋友的酒》\\任贤齐-朋友的酒.flac' is not a valid FLAC file
+K.K. Idol (Radio) not found
+Faded Tone "C" not found
+Faded Tone "G" not found
+お前も糖人形にしてやろうか！ not found
+F-ZERO メドレー (F-ZERO) not found
+ゲルドの谷 not found
+ゼルダ姫のテーマ not found
+地上BGM (スーパーマリオブラザーズ) not found
+アスレチックBGM (スーパーマリオブラザーズ3) not found
+迷いの森 not found
+tusk not found
+We're Long Hua Expedition not found
+pretending to… not found
+The Veldt (8 Minute Edit) not found
+ったく仕方ねぇなぁ、いくぜ！！ not found
+鉄を叩きながら　てめーの魂を叩き上げろ not found
+RED SUNS (高橋兄弟のテーマ) not found
+Alarm (Marshmello Remix) - Marshmello / Anne not found
+Barbary Lions - Anti not found
+Shikaku - Anti not found
+Black Diablos - Anti not found
+Hero (feat. Christina Perri) not found
+Jungle Bae (Jack Ü VIP Edit) not found
+Ignite (Instrumental) - Alan Walker / K not found
+Revelation (feat. HALIENE) not found
+Ghost in the Machine (feat. Jonathan Mendelsohn) not found
+Recess (with Kill The Noise, Fatman Scoop, and Michael Angelakos) not found
+雪の詠女 (Instrumental VIP) - Anti not found
+Drink Over You - T not found
+Holidays (Radio Edit) - Remady / Manu not found
+Rubik - Distrion / Electro not found
+Boardwalk - G not found
+Feel So Close (Radio Edit) not found
+Keep Pushin' (feat. Inaya Day) [Extended Mix] not found
+Freal Luv (feat. Chanyeol & Tinashe) not found
+Trndsttr (feat. M. Maggie) (Lucian Remix) not found
+TDCU - G not found
+人間地獄 - Anti not found
+凍土 - Anti not found
+Taking Over (ft. Miyoki) not found
+Legends (Extended Mix) not found
+Triple Six not found
+Live The Night (Extended Mix) not found
+All About That Bass (Ice Creamz Remix) not found
+Never Giving Up (Extended Mix) not found
+Believe (Original Mix) not found
+Survival Waves (Original Mix) not found
+Hyakkiyakou - Anti not found
+Burn (Let Your Mind Go) [feat. Luciana] [Extended Mix] not found
+Like A B***h (Extended Mix) not found
+Veyron (feat. Mahoy) not found
+How Deep Is Your Love (DJ Snake Remix) not found
+We've Never Met but Can We Have a Cup of Coffee or something not found
+Getting Close (Metyou Remix) not found
+Late at Night (Dub) not found
+Afterhours (feat. Diplo & Nina Sky) not found
+We No Speak Americano (Original Version) not found
+Out The Speakers - A not found
+Immortals (Remix) not found
+You Found Me (feat. Courtney Jenaé) [Extended Mix] not found
+The Wave (feat. Harrison) not found
+Kingpin (feat. Big Sean) (Salva Remix) not found
+Secrets (Diplo Remix) not found
+Loud Strings (Original Mix) not found
+El Mariachi (Extended Mix) not found
+Movin' Bass (GTA Remix) - Rick Ross / JAY not found
+Where Are Ü Now (with Justin Bieber) [Marshmello Remix] [feat. Justin Bieber] not found
+Make Some Noise (GLOWINTHEDARK & Wax Motif Trap Remix) not found
+Must Be The Feeling (Radio Edit) not found
+Temple - Baauer / M.I.A. / G not found
+Temple (Prismo Remix) - Prismo / M.I.A. / G not found
+Haters (Original Mix) not found
+With You (With You) not found
+Away - Class not found
+Never Let Go(Extended Mix) not found
+Komorebi - m not found
+Summertime - K not found
+Sirin - Class not found
+Pneumatic Tokyo not found
+さくらさくら ～ Japanize Dream... - 彩音 ~xi not found
+Elevation (Club Mix) not found
+I Won't Let You Walk Away (Lost Kings Remix) not found
+Within (Original Mix) not found
+Daydreams (Original Mix) not found
+Time (Official) not found
+The #IcePack Rises (Original Mix) not found
+Again (Skyvoice Cover/Remix) - Skyvoice / no not found
+Solstice - K not found
+Louder (Extended Mix) not found
+Floating [Original Mix(Krewella's Alive Vocal)] not found
+DJ Jackson 14minute Live Remixes not found
+Drop That Low (When I Dip) [Extended Mix] not found
+Ninja Challenge(Dodge & Fuski Remix) not found
+Struggle (Original Mix) not found
+Wrong Answer (Original Mix) not found
+Leave It Behind (feat. 12th Planet & Ash Riser) not found
+Showdown (feat. ShockOne) not found
+Juices (feat. Dubloadz) not found
+Borg (feat. FuntCase) not found
+Frontier (Extended Mix) not found
+Shots (Broiler Remix) not found
+Jumper (Original Mix) not found
+My Sunset (Original Mix) not found
+Let's Get F**ked Up not found
+Break Again (Original Mix) not found
+**** off not found
+Endeavors (Original Mix) not found
+Open Window (Original Mix) not found
+Levels (Radio Edit) not found
+**** Gravity not found
+Blu (Original Mix) not found
+Ragga Bomb (Skrillex & Zomboy Remix) not found
+Dirty Vibe (with Diplo, G-Dragon, and CL) not found
+Ease (Alex Skrindo - Ease) not found
