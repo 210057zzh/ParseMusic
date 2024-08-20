@@ -4,7 +4,7 @@ import sqlite3
 from alive_progress import alive_bar
 import errno
 
-playlist_name = "dian"
+playlist_name = "han"
 
 
 def prepare_sqllite():
