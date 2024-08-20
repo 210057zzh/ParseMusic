@@ -1,0 +1,11 @@
+An exception occurred while processing yinyue\aLIEz - 澤野弘之 (さわの ひろゆき).flac : 'yinyue\\aLIEz - 澤野弘之 (さわの ひろゆき).flac' is not a valid FLAC file
+An exception occurred while processing yinyue\Dearest (最亲爱的) - 浜崎あゆみ (滨崎步).flac : 'yinyue\\Dearest (最亲爱的) - 浜崎あゆみ (滨崎步).flac' is not a valid FLAC file
+An exception occurred while processing yinyue\Fiction - BEAST (비스트).flac : 'yinyue\\Fiction - BEAST (비스트).flac' is not a valid FLAC file
+An exception occurred while processing yinyue\SENTIMENTAL (센치해) - WINNER (위너).flac : 'yinyue\\SENTIMENTAL (센치해) - WINNER (위너).flac' is not a valid FLAC file
+An exception occurred while processing yinyue\ワンダフルデイズ (美好时光) - ONE☆DRAFT (ワン・ドラフト).flac : 'yinyue\\ワンダフルデイズ (美好时光) - ONE☆DRAFT (ワン・ドラフト).flac' is not a valid FLAC file
+An exception occurred while processing yinyue\地球ぎ (地球仪) - 松澤由美.flac : 'yinyue\\地球ぎ (地球仪) - 松澤由美.flac' is not a valid FLAC file
+An exception occurred while processing yinyue\少女の頃に戻ったみたいに (仿佛回到少女时代) - ZARD (ザード).flac : 'yinyue\\少女の頃に戻ったみたいに (仿佛回到少女时代) - ZARD (ザード).flac' is not a valid FLAC file
+An exception occurred while processing yinyue\愛をとりもどせ!! (把爱夺回来!!) - Crystal King.flac : 'yinyue\\愛をとりもどせ!! (把爱夺回来!!) - Crystal King.flac' is not a valid FLAC file
+An exception occurred while processing yinyue\桃源郷エイリアン (桃源乡的外星人) - serial TV drama.flac : 'yinyue\\桃源郷エイリアン (桃源乡的外星人) - serial TV drama.flac' is not a valid FLAC file
+An exception occurred while processing yinyue\baisexiangbuquan\07. White Album — 由綺 III.flac : 'yinyue\\baisexiangbuquan\\07. White Album — 由綺 III.flac' is not a valid FLAC file
+An exception occurred while processing yinyue\R-任Xian齐 FLAC+MP3\2016-《朋友的酒》\任贤齐-朋友的酒.flac : 'yinyue\\R-任Xian齐 FLAC+MP3\\2016-《朋友的酒》\\任贤齐-朋友的酒.flac' is not a valid FLAC file
