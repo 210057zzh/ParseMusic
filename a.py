@@ -4,7 +4,7 @@ import sqlite3
 from alive_progress import alive_bar
 import errno
 
-playlist_name = "han"
+playlist_name = "zhong"
 
 
 def prepare_sqllite():
@@ -16,19 +16,21 @@ def prepare_sqllite():
         DROP TABLE IF EXISTS songs
         """
     )
-    cur.execute("CREATE TABLE songs(title, artist, path)")
+    cur.execute("CREATE TABLE songs(title, artist, path, file_name, ext)")
     files = glob.glob("yinyue/**/*", recursive=True)
     with alive_bar(len(files)) as bar:
         for file in files:
             try:
+                if "." not in file:
+                    continue
+                [file_name, ext] = file[7:].rsplit(".", 1)
                 tags = mutagen.File(file, easy=True)
                 if tags is None:
                     continue
                 cur.executemany(
-                    "INSERT INTO songs VALUES(?, ?, ?)",
-                    [(tags["title"][0], tags["artist"][0], file[7:])],
+                    "INSERT INTO songs VALUES(?, ?, ?, ?, ?)",
+                    [(tags["title"][0], tags["artist"][0], file[7:], file_name, ext)],
                 )
-                pass
             except mutagen.MutagenError as error:
                 if isinstance(error.args[0], PermissionError):
                     continue
@@ -39,8 +41,8 @@ def prepare_sqllite():
                     log.flush()
             except KeyError as error:
                 cur.executemany(
-                    "INSERT INTO songs VALUES(?, ?, ?)",
-                    [(file[7:], "dummy artist", file[7:])],
+                    "INSERT INTO songs VALUES(?, ?, ?, ?, ?)",
+                    [(file[7:], "dummy artist", file[7:], file_name, ext)],
                 )
             except Exception as error:
                 log.write(f"An exception occurred while processing {file} : {error}\n")
@@ -60,11 +62,15 @@ def prepare_playlist():
         songs = [line.rstrip() for line in playlist]
         result = []
         for song in songs:
-            title = song.rsplit("-", 1)[0].strip()
+            if len(song) == 0:
+                continue
+            [title, artist] = song.rsplit("-", 1)
+            title = title.strip()
+            artist = artist.strip()
             result.append(
                 cur.execute(
-                    "select path from songs where title like ?",
-                    ("%" + title + "%",),
+                    "select path from songs where title like ? order by case when artist like ? then 1 else 99 end asc,case when ext = 'flac' then 1 else 99 end asc, length(title) asc",
+                    ("%" + title + "%", artist),
                 ).fetchall()
             )
             if len(result[-1]) == 0:
